@@ -12,7 +12,10 @@ To install Mosek, fully follow the instruction from here: http://docs.mosek.com/
 
 You can find the Mosek package in this repository, but you need a license to use it.
 
-##### 
+##### How to implement the algorithm
+Just run the script: demo_latentBayesianMelding.py
+
+##### Contact
 
 Contact: You may contact the first author at:
 mingjun.zhong@gmail.com or mzhong@lincoln.ac.uk
