@@ -88,8 +88,8 @@ groundTruthApplianceReading['othermeters'] = appliancedata.sum(axis=1)
 mains = meterdata['mains']
 
 #### declare an instance for lbm ################################
-lbm = LatentBayesianMelding()
-#lbm = FHMM_Relaxed()
+#lbm = LatentBayesianMelding()
+lbm = FHMM_Relaxed()
 
 # to obtain the model parameters trained by using HES data
 individual_model = lbm.import_model(meterlist,'appliance_model_induced_density.json')
